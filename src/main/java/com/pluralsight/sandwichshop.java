@@ -8,9 +8,12 @@ public class sandwichshop {
         Scanner myScanner = new Scanner(System.in);
 
         System.out.println("Select the sandwich size you want:");
+
         System.out.println("1: Regular ($5.45)");
+
         System.out.println("2: Large ($8.95)");
-        System.out.print("Enter 1 or 2: ");
+
+        System.out.print("Enter sandwich size 1 or 2: ");
         int size = myScanner.nextInt();
 
 
